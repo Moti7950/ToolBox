@@ -16,8 +16,9 @@ namespace ToolBox
             Saw Sawi = new Saw(2);
             Screwdriver Screwdriveri = new Screwdriver(2);
             PipeCutter PipeCutteri = new PipeCutter(2);
-            ToolBox[] tolllisti = {Hammeri, Wrenchi, Drilli, Sawi, Screwdriveri, PipeCutteri};
-            
+            WireStripper WireStripperi = new WireStripper(2);
+            NailGun NailGuni = new NailGun(2);
+            ToolBox[] tolllisti = {Hammeri, Wrenchi, Drilli, Sawi, Screwdriveri, PipeCutteri, NailGuni,WireStripperi};
             foreach (ToolBox tool in tolllisti)
             {
                 tool.Describe();

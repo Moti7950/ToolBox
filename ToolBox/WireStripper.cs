@@ -17,6 +17,7 @@ namespace ToolBox
         }
 
         public override void Use()
+            
         {
             Console.WriteLine("WeakReference - Used to cache or reference large objects without blocking memory cleanup, helping manage memory efficiently.");
         }
