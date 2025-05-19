@@ -13,9 +13,11 @@ namespace ToolBox
 
         public override void Describe()
         {
-            Console.WriteLine("Wrench – Tightens or loosens nuts and bolts.");
+            Console.WriteLine("Wrench – A tool used to grip and turn objects like nuts and bolts.");
         }
         public override void Use()
-        { }
+        {
+            Console.WriteLine("Wrench – Loosening or tightening bolts in plumbing or machinery.");
+        }
     }
 }
